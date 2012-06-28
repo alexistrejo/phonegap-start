@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
+	id		= "org.banxico.ds.prototipo"
 	version 	= "1.0.0">
 
-	<name>PhoneGap: Getting Started alxs</name>
+	<name>Banxico Móvil</name>
 
 	<description>
-		A template for getting started with PhoneGap development and build.phonegap.com
+		Aplicación banxico
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://www.banxico.org.mx"
+		email="atrejo@banxico.org.mx">
+		Alexis Trejo
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
@@ -21,4 +21,7 @@
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
 	<preference name="orientation" value="portrait" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="prerendered-icon" value="true" />
+	
 </widget>
