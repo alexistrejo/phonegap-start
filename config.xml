@@ -4,10 +4,10 @@
 	id		= "org.banxico.ds.prototipo"
 	version 	= "1.0.0">
 
-	<name>Banxico Móvil</name>
+	<name>Banxico Movil</name>
 
 	<description>
-		Aplicación banxico
+		Aplicacion banxico
 	</description>
 
 	<author href="http://www.banxico.org.mx"
