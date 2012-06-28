@@ -2,9 +2,7 @@ function initChart(chart){
             var container = $(chart.container);
     container.bind('touchstart',function(e,obj){guardaCoordsInicioTouch(e,obj);});
     container.bind('pinch',function(e,obj){pinchChart(e,obj,chart);
-           //container.bind('pinchopen',function(e,obj){pinchOpenChart(e,obj,chart);
 });
-           //container.bind('pinchclose',function(e,obj){pinchCloseChart(e,obj,chart);})
             container.swiperight(function(event){event.stopPropagation();});
             container.swipeleft(function(event){event.stopPropagation();});
     window.chartZoomStep=2;
